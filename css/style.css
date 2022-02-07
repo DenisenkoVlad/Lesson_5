@@ -1,0 +1,126 @@
+/* &display=swap */
+
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+	font-family: 'Montserrat Alternates';
+	src: url('../fonts/MontserratAlternates-Italic.woff2') format('woff2'), url('../fonts/MontserratAlternates-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat Alternates';
+	src: url('../fonts/MontserratAlternates-Bold.woff2') format('woff2'), url('../fonts/MontserratAlternates-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat Alternates';
+	src: url('../fonts/MontserratAlternates-BoldItalic.woff2') format('woff2'), url('../fonts/MontserratAlternates-BoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat Alternates';
+	src: url('../fonts/MontserratAlternates-Regular.woff2') format('woff2'), url('../fonts/MontserratAlternates-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+body{
+	font-family: 'Montserrat Alternates';
+	font-size: 18px;
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
+[class*="__container"]{
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.title, .link, .info, ul{
+	font-family: 'Fira Sans Condensed';
+}
+.title {
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 60px;
+	letter-spacing: 3px;
+	margin: 20px 0;
+}
+.header__container img{
+	display: block;
+	max-width: 200px;
+	margin: auto;
+}
+.menu {
+	margin: 20px 0;
+}
+.list {
+	font-size: 12px;
+}
+.list-item {
+	display: inline-block;
+	font-size: 12px;
+	margin: 5px 14px;
+	background-color: grey;
+	padding: 5px;
+	border-radius: 4px;
+}
+.active {
+	background-color: red;
+	font-weight: 700;
+}
+.main__container img {
+	display: block;
+	margin: 0 auto 20px auto;
+	width: 100%;
+	border-radius: 5px;
+}
+.text {
+	margin: 0 0 10px 0;
+}
+.subtitle {
+	font-style: italic;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 30px 0 15px 0;
+}
+.link {
+	font-size: 30px;
+	margin: 20px;
+	text-align: center;
+}
+.link a{
+	display: inline-block;
+	font-weight: 700;
+	background-color: red;
+	border-radius: 10px;
+	padding: 7px;
+	letter-spacing: 1px;
+}
+.footer {
+	background-color: grey;
+	padding: 0 0 5px 0;
+}
+.info {
+	padding: 10px 0 0 0;
+	margin: 0 0 5px 0;
+}
+.list-info-item {
+	font-size: 14px;
+	padding: 0 0 0 15px;
+	margin: 0 0 5px 0;
+}
